@@ -30,7 +30,8 @@ class Remove_Post_Type_Slug_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-
+		$remove_post_selected = array();
+		update_option( 'remove_custom_post_type_slug',  $remove_post_selected, true);
 	}
 
 }

@@ -30,7 +30,7 @@ class Remove_Post_Type_Slug_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+		delete_option('remove_custom_post_type_slug');
 	}
 
 }
